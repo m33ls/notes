@@ -1,4 +1,4 @@
-# yd-dlp scripts
+# yt-dl / yt-dlp scripts
 
 download playlist as mp3 and save to subfolder in ~/music
 ```
