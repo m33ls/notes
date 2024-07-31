@@ -26,3 +26,9 @@ compile and link
 ```
 llvm/build/bin/clang++ -O1 -g -fsanitize=address -fno-omit-frame-pointer <EXAMPLE>.cc
 ```
+
+hfuzz-clang
+```
+cmake .. -D CMAKE_C_COMPILER=hfuzz-clang -D CMAKE_CXX_COMPILER=hfuzz-clang++
+cmake --build ..
+```
